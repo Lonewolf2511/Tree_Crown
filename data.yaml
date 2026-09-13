@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Tree']
+
+roboflow:
+  workspace: segmentation-iugrk
+  project: tree-crown-detection-tfpkr
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/segmentation-iugrk/tree-crown-detection-tfpkr/dataset/7
